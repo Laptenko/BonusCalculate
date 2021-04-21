@@ -39,6 +39,7 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
                 <configuration>
+                    <skip>false</skip>
                     <rules>
                         <rule>
                             <element>CLASS</element>
